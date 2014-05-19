@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- PAGE TITLE -->
+    <title>F-day -  Coming Soon Open Source Template</title>
+    <meta charset="UTF-8">
+    <!-- MAKE IT RESPONSIVE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <!-- BOOTSTRAP -->
+    <link href="styles/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- MAIN STYLESHEET -->
+    <link href="styles/style.css" rel="stylesheet" media="screen">
+    <!-- LOAD FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Amatic+SC:700,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <!-- START BODY -->
+  <body>
+  
+  	<!-- START HEADER PART -->
+    <header id="page-header">
+    	<div class="container">
+		    <div id="header-logo" class="animate_top_bottom">
+		    	<a href="#">
+		    		<!-- LOGO IMAGE HERE -->
+			    	<img src="images/logo.png" alt="Your Brand logo Image">
+		    	</a>
+		    </div>
+		    <div id="header-headline" class="animate_fade">
+		    	<!-- BIG HEADLINE -->
+			    <h1>Yes, We're Coming Soon !</h1>
+			    <!-- MANAGED BY JQUERY, SEE CUSTOM.JS -->
+			    <p id="header-message"></p>
+		    </div>
+		    <!--TIMER -->
+		    <div id="header-timer" class="clearfix">
+	            <div id="days" class="timer-box animate_left_right"></div>
+	            <div id="hours" class="timer-box animate_bottom_top"></div>
+	            <div id="minutes" class="timer-box animate_top_bottom"></div>
+	            <div id="seconds" class="timer-box animate_right_left"></div>
+	        </div>
+	        <!-- CALL TO ACTION BUTTON -->
+	        <div id="header-buttons" class="animate_bottom_top">
+	            <a href="#page-footer" class="btn btn-default"><i class="fa fa-angle-double-down"></i> Get In Touch Now !</a>
+	        </div>
+    	</div>
+    </header>
+	<!-- END HEADER PART -->
+	
+	<!-- START CONTENT PART -->
+    <section id="page-content">
+	    <div class="container">
+		    <div class="row">
+		    	<!-- A COLUMN -->
+			    <div class="col-md-4 feature animate_left_right">
+			    	<h1><i class="fa fa-users"></i></h1>
+				    <h3>We're #YOURCOMPANY !</h3>
+				    <p>+ 400 icons available, Built with HTML5 & CSS3, Responsive & Retina ready, Clean and commented code,
+					    form is functional with PHP, Page loader included BUT mainly extremely easy to set up ! 
+				    </p>
+			    </div>
+			    <!-- A COLUMN -->
+			    <div class="col-md-4 feature animate_bottom_top">
+			    	<h1><i class="fa fa-trophy"></i></h1>
+				    <h3>We're doing #SOMETHING !</h3>
+				    <p>+ 400 icons available, Built with HTML5 & CSS3, Responsive & Retina ready, Clean and commented code,
+					    form is functional with PHP, Page loader included BUT mainly extremely easy to set up ! 
+				    </p>
+			    </div>
+			    <!-- A COLUMN -->
+			    <div class="col-md-4 feature animate_right_left">
+			    	<h1><i class="fa fa-rocket"></i></h1>
+				    <h3>We'll  change the World !</h3>
+				    <p>+ 400 icons available, Built with HTML5 & CSS3, Responsive & Retina ready, Clean and commented code,
+					    form is functional with PHP, Page loader included BUT mainly extremely easy to set up ! 
+				    </p>
+			    </div>
+		    </div>
+	    </div>
+    </section>
+	<!-- END CONTENT PART -->
+	
+	<!-- START FOOTER PART -->
+    <footer id="page-footer">
+	    <div class="container">
+		    <div class="row">
+			    <div class="col-md-6 animate_left_right">
+				    <h2>Drop Us a Line...Yes now !</h2>
+			    	<div id="contact-form">
+			    		<!-- FORM -->
+						<form class="form-horizontal" action="sending.php" method="post" id="form">
+							<div class="form-group">
+								<label class="col-md-3 control-label">Name</label>
+								<div class="col-md-9">
+									<input type="text" class="form-control" name="contact_name" data-validation="required">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-md-3 control-label">Email</label>
+								<div class="col-md-9">
+									<input type="email" class="form-control" name="contact_email" data-validation="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-md-3 control-label">Message</label>
+								<div class="col-md-9">
+									<textarea class="form-control" rows="3" name="contact_message" data-validation="required"></textarea>
+								</div>
+							</div>
+							<div class="form-group form-button clearfix">
+								<input type="hidden" name="submitted" id="submitted" value="true" />
+								<button type="submit" class="btn btn-default" name="submitted"><i class="fa fa-envelope"></i> Send</button>
+							</div>
+						</form>
+			    	</div>
+			    </div>
+			    <div class="col-md-6 animate_right_left">
+			    	<h2>Get In Touch, Let's talk !</h2>
+				    <div id="contact-informations">
+				    	<!-- ADDRESS GOES HERE -->
+						<ul class="contact-address list-unstyled">
+						    <li><a href="tel:+330000000">Call +33 00000000</a></li>
+						    <li>Champ de Mars,</li>
+						    <li>5 Avenue Anatole France,</li>
+						    <li>Paris, 75000 FRANCE</li>
+						</ul>
+						<!-- SEPARATION -->
+						<hr/>
+						<!-- SOCIAL ICONS -->
+						<ul class="social-list list-unstyled">
+						    <li><a href="#" title="Join us on Facebook"><i class="fa fa-facebook"></i></a></li>
+						    <li><a href="#" title="Join us on Twitter"><i class="fa fa-twitter"></i></a></li>
+						    <li><a href="#" title="Join us on Skype"><i class="fa fa-skype"></i></a></li>
+						    <li><a href="#" title="Join us on Google Plus"><i class="fa fa-google-plus"></i></a></li>
+						    <li><a href="#" title="Join us on Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						    <li><a href="#" title="Subscribe to our RSS feed"><i class="fa fa-rss"></i></a></li>
+						</ul>
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+    </footer>
+	<!-- END FOOTER PART -->
+	
+	<div id="layer"></div>
+	
+	<div id="background">
+		<!-- BACKGROUND IMAGES -->
+		<ul class="slides-container">
+			<li><img src="images/slider1.jpg" alt="Background Image"/></li>
+			<li><img src="images/slider2.jpg" alt="Background Image"/></li>
+			<li><img src="images/slider3.jpg" alt="Background Image"/></li>
+			<li><img src="images/slider4.jpg" alt="Background Image"/></li>
+		</ul>
+	</div>
+
+    <!-- LOAD JAVASCRIPTS FILES -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="js/jquery.form-validator.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+  <!-- END BODY -->
+</html>
