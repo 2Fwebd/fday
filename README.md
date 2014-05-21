@@ -31,7 +31,7 @@ Common Issues :
 
 *   You're not redirected on another page:
 
-  >Check if sending.php is in your server, then be sure you made no change in the form's tags
+    *   Check if sending.php is in your server, then be sure you made no change in the form's tags
 
 *   You see a warning of success but you receive nothing:
 
