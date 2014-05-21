@@ -18,15 +18,15 @@ F-day, An open source Coming soon Page Template, Clean & Elegant !
 * Jquery form validation
 * Free Support
 
-##Help
-### [Where do I set my email regarding the form ?](#)
+## Help
+### Where do I set my email regarding the form ?
 Regarding the contact form we just need your email so write it into the file **Sending.php** line 8. 								
 Then you will receive all the emails from your website. 
 
-### [Where do I set the date for the countdown ?](#)
+### Where do I set the date for the countdown ?
 You have to open the file **"Custom.js"** in "js" folder, you can see in the beginning of the files all the informations to set up the countdown.
 
-### [Why I don't receive any email ?](#)
+### Why I don't receive any email ?
 Common Issues :
 
 *   You're not redirected on another page:
@@ -35,15 +35,15 @@ Common Issues :
 
 *   You see a warning of success but you receive nothing:
 
-    >   Check if your provider accepted the sending of emails
-    >   Check if your email is correctly set in sending.php line 8
-    >   Check your mailbox again...
+    *   Check if your provider accepted the sending of emails
+    *   Check if your email is correctly set in sending.php line 8
+    *   Check your mailbox again...
 
-### [Where can I find the icons library ?](#)
+### Where can I find the icons library ?
 Well this template use Font Awesome, so you can take a look to all the icons available here -> 
 [Library](fortawesome.github.io/Font-Awesome/icons/)
 
-### [How do I set my logo ?](#)
+### How do I set my logo ?
 Just replace logo.png in the folder "images" with your own, easy !
 				    
 
